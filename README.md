@@ -11,9 +11,6 @@
 | `rf-circuit-design` | 射频电路设计与调试专业指导 | 射频电路原理图设计、PCB布局、阻抗匹配、调试技巧 |
 | `rf-test-instruments` | 射频测试仪器使用指导 | 频谱分析仪、网络分析仪、功率计等仪器操作、测试方法、问题排查 |
 | `rf-customer-support` | 射频客户项目技术支持全流程指导 | 射频项目发掘、器件选型、Design-In流程、客诉处理 |
-| `agent-browser` | 浏览器代理技能 | 网页浏览、信息获取、在线搜索等场景 |
-| `find-skills` | 技能查找与管理 | 技能发现、分类、使用指导等场景 |
-| `weather` | 天气查询技能 | 天气信息获取、天气预报、气候分析等场景 |
 | `component-selection` | 元器件认知与选型专家 | 芯片选型、国产替代方案、元器件参数分析、应用场景匹配等 |
 | `hardware-design` | 硬件设计与工艺专家 | PCB Layout、原理图设计、SMT/PCBA制造流程、工艺问题解决等 |
 | `tech-support` | 技术支持与调试专家 | 芯片应用调试、电源调试、FPGA/ASIC调试、故障分析与解决等 |
