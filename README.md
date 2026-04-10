@@ -1,6 +1,6 @@
-# 工程师技能库 (Engineer Skills)
+# 芯片供应链电商技能库 (Chip Supply Chain E-Commerce Skills)
 
-本项目为OpenClaw系统提供专业技能支持，涵盖射频工程、元器件认知与选型等多个领域的专业知识和解决方案。
+本项目为OpenClaw类系统提供专业技能支持，涵盖射频工程、元器件认知与选型等多个领域的专业知识和解决方案。
 
 ## 技能模块
 
