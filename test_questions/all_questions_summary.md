@@ -1,4 +1,4 @@
-# 射频工程师技能测试问题汇总
+# 技能测试问题汇总
 
 ## 测试问题统计
 
@@ -9,7 +9,20 @@
 | rf-circuit-design | 6 | rf-circuit-design_questions.md |
 | rf-test-instruments | 6 | rf-test-instruments_questions.md |
 | rf-customer-support | 6 | rf-customer-support_questions.md |
-| **总计** | **30** | - |
+| component-selection | 5 | component-selection_questions.md |
+| hardware-design | 5 | hardware-design_questions.md |
+| tech-support | 5 | tech-support_questions.md |
+| quality-control | 5 | quality-control_questions.md |
+| supply-demand | 5 | supply-demand_questions.md |
+| inventory-management | 5 | inventory-management_questions.md |
+| price-analysis | 5 | price-analysis_questions.md |
+| cross-border-supply | 5 | cross-border-supply_questions.md |
+| pcba-manufacturing | 5 | pcba-manufacturing_questions.md |
+| custom-solution | 5 | custom-solution_questions.md |
+| engineer-community | 5 | engineer-community_questions.md |
+| supply-chain-finance | 5 | supply-chain-finance_questions.md |
+| customer-service | 5 | customer-service_questions.md |
+| **总计** | **95** | - |
 
 ---
 
@@ -55,13 +68,104 @@
 5. 失效分析(FA)支持 - ESD损伤分析
 6. 项目跟踪与管理 - 多项目协调
 
+### 元器件认知与选型 (component-selection)
+1. STM32芯片选型 - 工业控制应用
+2. 功率器件选型 - DC-DC转换器应用
+3. 传感器选型 - 温度传感器应用
+4. 模拟芯片选型 - 运算放大器应用
+5. 国产芯片替代 - TI DSP替代方案
+
+### 硬件设计与工艺 (hardware-design)
+1. 高速PCB设计 - DDR4内存接口应用
+2. SMT工艺优化 - 0603元件贴装偏移问题
+3. 成本优化 - 4层PCB制造成本降低
+4. EMC设计 - 工业设备CE认证
+5. 制造文件准备 - 多层板制造文件
+
+### 技术支持与调试 (tech-support)
+1. 电源调试 - 纹波过大问题
+2. FPGA调试 - 时序违规问题
+3. 故障分析 - 高温环境功能失效
+4. 嵌入式系统调试 - 间歇性死机问题
+5. 模拟电路调试 - 传感器接口噪声问题
+
+### 品质与认证把控 (quality-control)
+1. 原厂料鉴别 - STM32芯片真伪鉴别
+2. RoHS合规性 - 欧盟市场准入要求
+3. 供应商评估 - 新供应商资质评估
+4. 假冒料识别 - TI芯片假冒特征
+5. 来料检验标准 - IQC检验流程建立
+
+### 供需匹配与资源整合 (supply-demand)
+1. 一站式采购 - BOM配单服务
+2. 海外资源整合 - TI芯片海外现货采购
+3. 供应商开发 - MCU供应商开发流程
+4. 呆滞库存处理 - 元器件库存变现方案
+5. 供应链风险管理 - 多元化采购策略
+
+### 库存与现货管理 (inventory-management)
+1. 库存周转优化 - 提高库存周转率方案
+2. 爆款现货储备 - STM32芯片备货策略
+3. 缺货应对 - TPS54331芯片停产替代方案
+4. 涨价应对 - 存储器芯片价格上涨应对策略
+5. 市场分析 - 芯片市场价格走势分析
+
+### 价格行情分析与定价 (price-analysis)
+1. 价格走势分析 - STM32芯片价格走势
+2. 涨幅榜分析 - ic.net.cn涨幅榜分析
+3. 定价策略制定 - STM32库存芯片定价
+4. 采购时机判断 - TPS54331采购时机
+5. 行情预判 - NAND Flash存储器价格预判
+
+### 跨境供应链操作 (cross-border-supply)
+1. 海外芯片采购 - TI原厂采购流程
+2. 进口报关 - STM32芯片进口报关
+3. 国际物流选择 - 香港到深圳紧急物流
+4. 海外仓储管理 - 美国海外仓方案
+5. 跨境支付与结算 - 海外供应商支付
+
+### PCBA柔性制造服务 (pcba-manufacturing)
+1. 中小批量柔性生产 - 多品种小批量生产方案
+2. 紧急订单处理 - 物联网模块加急生产
+3. SMT工艺优化 - 贴片不良率改进方案
+4. BOM配单与制造 - 一站式制造服务方案
+5. 多品种小批量生产 - 研发型企业生产方案
+
+### 定制化方案设计 (custom-solution)
+1. 智能家居方案 - 智能家居控制中心设计
+2. 智能穿戴方案 - 智能运动手表方案
+3. 工业物联网方案 - 工业环境监测设备
+4. 智能安防方案 - 智能安防摄像头设计
+5. 消费电子方案 - 便携式蓝牙音箱方案
+
+### 工程师生态运营 (engineer-community)
+1. 社区搭建方案 - 嵌入式工程师社区规划
+2. 开发板推荐 - 物联网开发板选型
+3. 工具耗材选型 - 电子实验室工具采购
+4. 技术教程制作 - STM32入门教程规划
+5. 社区活动策划 - 电子设计竞赛方案
+
+### 供应链金融与账期服务 (supply-chain-finance)
+1. 账期服务申请 - 中小企业账期申请
+2. 订单融资 - 订单融资方案
+3. 应收账款融资 - 应收账款融资方案
+4. 金融方案定制 - 初创企业金融方案
+5. 数据驱动策略 - 数据驱动金融服务策略
+
+### 客户需求挖掘与服务 (customer-service)
+1. 终端客户技术支持 - STM32调试问题
+2. 经销商库存需求 - 芯片库存紧张解决方案
+3. 客户需求挖掘 - 新客户需求识别
+4. 售后问题处理 - MCU质量问题
+5. 一对一服务方案 - 重要客户专属服务
+
 ---
 
 ## 测试建议
 
 ### 测试方法
 1. **单技能测试**: 逐个测试每个技能的问题，验证技能触发准确性
-2. **混合测试**: 随机打乱30个问题，验证技能路由准确性
+2. **混合测试**: 随机打乱95个问题，验证技能路由准确性
 3. **边界测试**: 测试模糊问题，验证技能选择的合理性
 
 ### 评估标准

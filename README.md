@@ -1,6 +1,6 @@
-# 射频工程师技能库 (RF Engineer Skills)
+# 工程师技能库 (Engineer Skills)
 
-本项目为OpenClaw系统提供射频工程领域的专业技能支持，涵盖射频理论、电路设计、测试仪器、产品技术支持等全方位内容。
+本项目为OpenClaw系统提供专业技能支持，涵盖射频工程、元器件认知与选型等多个领域的专业知识和解决方案。
 
 ## 技能模块
 
@@ -14,6 +14,19 @@
 | `agent-browser` | 浏览器代理技能 | 网页浏览、信息获取、在线搜索等场景 |
 | `find-skills` | 技能查找与管理 | 技能发现、分类、使用指导等场景 |
 | `weather` | 天气查询技能 | 天气信息获取、天气预报、气候分析等场景 |
+| `component-selection` | 元器件认知与选型专家 | 芯片选型、国产替代方案、元器件参数分析、应用场景匹配等 |
+| `hardware-design` | 硬件设计与工艺专家 | PCB Layout、原理图设计、SMT/PCBA制造流程、工艺问题解决等 |
+| `tech-support` | 技术支持与调试专家 | 芯片应用调试、电源调试、FPGA/ASIC调试、故障分析与解决等 |
+| `quality-control` | 品质与认证把控专家 | 质量标准解读、元器件鉴别、供应链品质把控、合规性认证等 |
+| `supply-demand` | 供需匹配与资源整合专家 | 供应链对接、库存资源整合、供应商管理、一站式采购等 |
+| `inventory-management` | 库存与现货管理专家 | 库存周转策略、现货储备调整、缺货/涨价应对、市场行情分析等 |
+| `price-analysis` | 价格行情分析与定价专家 | 价格跟踪、涨跌分析、定价策略、行情预判等 |
+| `cross-border-supply` | 跨境供应链操作专家 | 进出口报关、国际物流、海外仓储、跨境采购与交付等 |
+| `pcba-manufacturing` | PCBA柔性制造服务专家 | 中小批量PCBA柔性生产、高频换线、快速出货、BOM配单、SMT贴片等 |
+| `custom-solution` | 定制化方案设计专家 | 物联网/消费电子方案设计、芯片选型、元器件整合、整体解决方案等 |
+| `engineer-community` | 工程师生态运营专家 | 工程师社区搭建、开发板服务、工具耗材、技术教程、活动策划等 |
+| `supply-chain-finance` | 供应链金融与账期服务专家 | 账期服务、融资支持、中小企业服务、数据驱动金融策略等 |
+| `customer-service` | 客户需求挖掘与服务专家 | 需求挖掘、终端客户服务、经销商服务、一对一服务、售后服务等 |
 
 **说明**：`agent-browser`、`find-skills` 和 `weather` 是开源技能，本项目中仅为拷贝使用。
 
@@ -41,6 +54,32 @@ skills/
 └── weather/
     ├── SKILL.md          # 天气查询技能
     └── _meta.json
+└── component-selection/
+    └── SKILL.md          # 元器件认知与选型技能
+└── hardware-design/
+    └── SKILL.md          # 硬件设计与工艺技能
+└── tech-support/
+    └── SKILL.md          # 技术支持与调试技能
+└── quality-control/
+    └── SKILL.md          # 品质与认证把控技能
+└── supply-demand/
+    └── SKILL.md          # 供需匹配与资源整合技能
+└── inventory-management/
+    └── SKILL.md          # 库存与现货管理技能
+└── price-analysis/
+    └── SKILL.md          # 价格行情分析与定价技能
+└── cross-border-supply/
+    └── SKILL.md          # 跨境供应链操作技能
+└── pcba-manufacturing/
+    └── SKILL.md          # PCBA柔性制造服务技能
+└── custom-solution/
+    └── SKILL.md          # 定制化方案设计技能
+└── engineer-community/
+    └── SKILL.md          # 工程师生态运营技能
+└── supply-chain-finance/
+    └── SKILL.md          # 供应链金融与账期服务技能
+└── customer-service/
+    └── SKILL.md          # 客户需求挖掘与服务技能
 
 test_questions/             # 测试问题集
 ├── all_questions_summary.md
@@ -48,7 +87,20 @@ test_questions/             # 测试问题集
 ├── rf-circuit-design_questions.md
 ├── rf-customer-support_questions.md
 ├── rf-engineer-expert_questions.md
-└── rf-test-instruments_questions.md
+├── rf-test-instruments_questions.md
+├── component-selection_questions.md
+├── hardware-design_questions.md
+├── tech-support_questions.md
+├── quality-control_questions.md
+├── supply-demand_questions.md
+├── inventory-management_questions.md
+├── price-analysis_questions.md
+├── cross-border-supply_questions.md
+├── pcba-manufacturing_questions.md
+├── custom-solution_questions.md
+├── engineer-community_questions.md
+├── supply-chain-finance_questions.md
+└── customer-service_questions.md
 ```
 
 ---
@@ -365,13 +417,26 @@ GPS天线 ──┬──[ESD保护]──[匹配网络]──┤               
 
 ## 测试问题集
 
-项目包含测试问题，主要覆盖射频相关的5个技能模块：
+项目包含测试问题，主要覆盖以下技能模块：
 
 - **射频基础理论**：5G频段、WiFi 6、物联网协议、传输线理论等
 - **卓胜微产品**：开关选型、LNA调试、滤波器应用、模组集成等
 - **电路设计**：匹配网络、PCB层叠、偏置电路、接地屏蔽等
 - **测试仪器**：VNA校准、滤波器测试、频谱仪使用、功率计等
 - **客户支持**：Design-In流程、器件选型、设计审核、客诉处理等
+- **元器件认知与选型**：芯片选型、国产替代方案、传感器应用、功率器件选型等
+- **硬件设计与工艺**：高速PCB设计、SMT工艺优化、成本控制、EMC设计等
+- **技术支持与调试**：电源调试、FPGA调试、故障分析、嵌入式系统调试等
+- **品质与认证把控**：质量标准解读、元器件鉴别、供应链品质把控、合规性认证等
+- **供需匹配与资源整合**：供应链对接、库存资源整合、供应商管理、一站式采购等
+- **库存与现货管理**：库存周转策略、现货储备调整、缺货/涨价应对、市场行情分析等
+- **价格行情分析与定价**：价格跟踪、涨跌分析、定价策略、行情预判等
+- **跨境供应链操作**：进出口报关、国际物流、海外仓储、跨境采购与交付等
+- **PCBA柔性制造服务**：中小批量PCBA柔性生产、高频换线、快速出货、BOM配单、SMT贴片等
+- **定制化方案设计**：物联网/消费电子方案设计、芯片选型、元器件整合、整体解决方案等
+- **工程师生态运营**：工程师社区搭建、开发板服务、工具耗材、技术教程、活动策划等
+- **供应链金融与账期服务**：账期服务、融资支持、中小企业服务、数据驱动金融策略等
+- **客户需求挖掘与服务**：需求挖掘、终端客户服务、经销商服务、一对一服务、售后服务等
 
 详见 `test_questions/` 目录。
 
