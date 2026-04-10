@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS temporary files
+*.tmp
+*.temp
+*.log
+
+# Node.js (if used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if used)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Build outputs
+build/
+dist/
+*.o
+*.obj
+*.exe
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+skills/.DS_Store
